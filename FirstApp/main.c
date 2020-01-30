@@ -2,6 +2,6 @@
 
 int main() {
 	printf("hello world!");
-	
-	return 0;
+	// 여기는 주석입니다.
+	return 0; 
 }
