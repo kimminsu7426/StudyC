@@ -3,14 +3,13 @@
 #endif // _MSC_VER
 
 #include <stdio.h>
-#include <stdlib.h>
 
 int main() {
-	printf("Be happy!\n");
-	printf("12345678901234567890\n");
-	printf("My\tfirend\n");
-	printf("Goot\bd\tchance\n");
-	printf("Cow\rW\a\n");
+	printf("%d\n", 100);
+	printf("%lf\n", 3.14);
+	printf("%.1lf\n", 3.141592);
+	printf("%.10lf\n", 3.14);
+	printf("%.1lf + %.1lf = %.1lf\n", 10.2, 3.4, 10.2+3.4);
 
 	// type here
 
@@ -18,3 +17,4 @@ int main() {
 	system("pause");
 	return 0; 
 }
+#include <stdlib.h>
