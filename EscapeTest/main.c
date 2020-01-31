@@ -6,9 +6,13 @@
 #include <stdlib.h>
 
 int main() {
-	printf("hello world!\n");
+	printf("Be happy!\n");
+	printf("12345678901234567890\n");
+	printf("My\tfirend\n");
+	printf("Goot\bd\tchance\n");
+	printf("Cow\rW\a\n");
 
-	//Type here
+	// type here
 
 	
 	system("pause");
