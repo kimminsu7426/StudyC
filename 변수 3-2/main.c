@@ -14,15 +14,11 @@
 int main(void) 
 {
 	
-    char grade;
-    char name[20];
+    char ch;
 
-    printf("학점 입력 : ");
-    scanf("%c", &grade);
-    printf("이름 입력 : ");
-    scanf("%s, name");
-    printf("%s의 학점은 %c입니다.\n", name, grade);
-
+    printf("문자 입력 : ");
+    scanf("%c", &ch);
+    printf("%c문자의 아스키 코드 값은 %d입니다.", ch, ch);
 
 	system("pause");
 	return EXIT_SUCCESS;
