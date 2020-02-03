@@ -25,6 +25,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CastTest", "CastTest\CastTe
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OpTestApp", "OpTestApp\OpTestApp.vcxproj", "{3D5974E8-450C-45AB-89B1-D44BF6BB4411}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CH05", "CH05", "{26EE01C7-5DB3-4082-B399-1D26C1952CB8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
