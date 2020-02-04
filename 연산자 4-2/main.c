@@ -23,10 +23,10 @@ int main(void)
     */
 
     int seats = 70, audience = 65;
-    int rate;
+    double rate;
 
     rate = (double)audience / (double)seats * 100.0;
-    printf("%.1lf\n", (65 / 70 * 100));
+    //printf("%.1lf\n", (double)audience / (double)seats);
     printf("ÀÔÀå·ü : %.1lf%%\n", rate);
      
 
