@@ -13,25 +13,14 @@
 // 메인함수
 int main(void) 
 {
-    
-    char animal[5][20];
-    int i;
-    int count;
-      
-    count = sizeof(animal) / sizeof(animal[0]); // 100 / 20 byte
-    for (i = 0; i < count; i++)
-    {
-        scanf("%s", animal[i]);
-    }
-    for (i = 0; i < count; i++)
-    {
-        printf("%s ", animal[i]);
-    }
-    
+    int a = 10;
+    double b = 3.5;
+    void* vp;
 
-    
-
-   
+    vp = &a;
+    printf("a is %d\n", *(int*)vp);
+    vp = &b;
+    printf("b is %.1lf\n", *(double*)vp);
 
 	system("pause");
 	return EXIT_SUCCESS;
