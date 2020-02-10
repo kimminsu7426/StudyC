@@ -21,13 +21,16 @@
   <ItemGroup>
     <ClCompile Include="main.c" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="aa.txt" />
+    <Text Include="aaa.txt" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{ae750a83-39b5-4b28-ba57-3b2d9ca45153}</ProjectGuid>
+    <ProjectGuid>{c06b0307-15d0-4201-beb6-792e12036776}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>ListStructApp</RootNamespace>
+    <RootNamespace>FileCopyApp</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>LinkedListApp</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
