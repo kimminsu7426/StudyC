@@ -23,11 +23,11 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{3d18e0e8-9b31-405f-8614-71035ee7ae31}</ProjectGuid>
+    <ProjectGuid>{96764ace-11aa-40cd-a2e8-9c8ded194f51}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>변수_3_2</RootNamespace>
+    <RootNamespace>선택문_if__case문</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>3-2 변수</ProjectName>
+    <ProjectName>5 선택문</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
